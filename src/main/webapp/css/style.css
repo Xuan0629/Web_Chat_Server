@@ -1,0 +1,115 @@
+/*general html document styling*/
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+/*header navbar styling*/
+header span {
+    color: rgb(150, 155, 158);
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header i {
+    padding-right: 10px;
+}
+/*changing styling of link in the header*/
+header a:link {
+    color: rgb(150, 155, 158);
+}
+
+header a:visited {
+    color: rgb(150, 155, 158);
+}
+
+header a:hover {
+    color: #b3d4fc;
+    text-decoration: underline;
+}
+/*header styling*/
+header{
+    margin-top: 0%;
+    padding: 10px;
+    background-color: rgb(0, 47, 167);
+}
+/*header text styling*/
+header h1{
+    margin-left : 50px;
+    color: rgb(150, 155, 158);
+}
+/*row styling: allow for rows to reach bottom of the page*/
+.row {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+/*styling of first column*/
+.column {
+    flex: 30%;
+    padding-left: 2%;
+    background-color: #b3d4fc;
+    height: 100%;
+    width: 100%;
+    padding-top: 27px;
+}
+/*syling of second column*/
+.column2 {
+    flex: 100%;
+    background-color: rgb(150, 155, 158);
+    padding-left: 5%;
+    height: 100%;
+    width: 100%;
+}
+/*text in first column styling*/
+.menu a{
+    color: rgb(0, 47, 167);
+    text-decoration: underline;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+/*add hover effect */
+.menu a:hover{
+    color: rgb(0, 47, 167);
+}
+/*add hover effect to github links */
+.github:hover{
+    color: #b3d4fc;
+}
+/*styling github links*/
+.github{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(0, 47, 167);
+}
+/*styling of footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 47, 167);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.my-button{
+    background-color: rgb(0, 47, 167);
+    font-size: 16px;
+    border: rgb(150, 155, 158);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+#entered_page{
+    margin: 5px;
+}

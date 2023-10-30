@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chat Server</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<!-- Add your site or application content here -->
+<header>
+  <h1>
+    Chat Server
+    <span>
+            <i class="fa-sharp fa-solid fa-address-card" href="about.html"></i><a href="about.html">About</a>
+        </span>
+  </h1>
+</header>
+<div class="row">
+  <div class="column">
+    <div class="menu">
+      <a href="index.html">
+        Chat Server Rooms
+      </a>
+      <div id="room-codes">
+
+      </div>
+<!--      buttons for creating rooms, entering rooms and refreshing room list-->
+      <div id = "room">
+        <button id = "newRoom" onclick="newRoom()" style="display: block;" class="my-button">Create and join new room</button>
+        <button id = "enterRoom" onclick="joinRoom()" style="display: block;" class="my-button">Enter an existing room</button>
+        <button id = "refreshRooms" onclick="refreshRooms()" style="display: block;" class="my-button">Refresh Rooms</button>
+
+      </div>
+    </div>
+  </div>
+  <div class="column2">
+    <h1 id="entered_page"></h1>
+    <textarea title="Chat Log" id="log" readonly
+              style="display: block; width: 100%; height: 600px; resize: none; margin: 20px 0 0; padding: 0; border: 0;"></textarea>
+<!--    send message button alternative to pressing the enter key-->
+    <button id = "sendMessage" onclick="sendMessage()" style="float: right">Send</button>
+    <input title="Chat Input" id="input" type="text" style="display: block; width: 94.5%; overflow: hidden; border-width: 1px 0 1px 0;"
+           autofocus/>
+  </div>
+</div>
+
+<div class="footer">
+  copyright &copy CSCI 2020U - Winter 2023
+</div>
+<!-- -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-63342-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
+
