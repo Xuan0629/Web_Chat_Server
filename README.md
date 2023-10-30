@@ -1,3 +1,4 @@
+# The repository is a duplication of the original submission of https://github.com/OntarioTech-CS-program/w23-csci2020u-assignment02-chen-zheng
 # Assignment 02 - Web Chat Server (Instructions)
 > Course: CSCI 2020U: Software Systems Development and Integration
 
